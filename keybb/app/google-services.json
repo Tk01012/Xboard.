@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "532509046782",
+    "project_id": "x-board-database",
+    "storage_bucket": "x-board-database.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:532509046782:android:acdb3137700371b0c8f2af",
+        "android_client_info": {
+          "package_name": "com.example.keybb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "532509046782-67i2c8fuifuepjicg7hvovdvta40hatv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJByT5WJSZkZzbi2v6pbBaQx-S1QHm69w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "532509046782-67i2c8fuifuepjicg7hvovdvta40hatv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

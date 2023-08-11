@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <EditText
+            android:id="@+id/emaKeyboard"
+            android:layout_width="420dp"
+            android:layout_height="38dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:padding="10dp"
+            android:scaleType="fitEnd"
+            android:focusable="true"
+            android:visibility="visible"
+            android:hint="Enter Userid here..."
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tvKeyboard"
+            android:layout_width="420dp"
+            android:layout_height="38dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:padding="10dp"
+            android:scaleType="fitEnd"
+            android:visibility="invisible"
+            android:textColor="@color/black" />
+
+
+
+    </RelativeLayout>
+
+    <android.inputmethodservice.KeyboardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/keyboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:visibility="visible"
+        android:keyPreviewLayout ="@layout/preview"
+        />
+
+
+</LinearLayout>
